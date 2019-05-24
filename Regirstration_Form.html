@@ -1,0 +1,70 @@
+ 
+ <!DOCTYPE html>
+
+
+<!-- Instructions: Add the following changes to this webpage:
+     Set lable's font to Roboto Bold (600 weight) and inputs' font to Roboto Regular (400 weight) -->
+     <!-- Create a registration form with username,email and password as inputs and an button to submit the form -->
+    <!-- Do not use table-->
+    <!-- Set same min-width for all labels -->
+    <!-- All field should have required field validation check-->
+   <!-- Change color of email's lables to a light green without setting any IDs or Class
+          
+
+-->
+
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+    <style>
+        label {
+            font-family: Roboto Bold;
+            font-weight: 600;
+            min-width: 200px;
+        }
+        input {
+            font-family: Roboto Regular;
+            font-weight: 400;
+        }
+        button{
+            font-size:1em;
+            border-spacing: 2em;
+        }
+
+        label[for="email"]{
+            color: chartreuse;
+        }
+        input[type="email"]{
+        margin:28px;
+        }
+        div{
+            margin: 1em;
+        }
+        
+    </style>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="" method ="get">
+        <div>
+        <label for="username">Enter your username</label>
+        <input type="text" name="username" id="username" required>   
+        </div>
+
+        <div>
+        <label for="email">Enter your email</label>
+        <input type="email" name="email" id="email" required>  
+        </div> 
+        
+        <div>
+        <label for="password">Enter your password</label>
+        <input type="password" name="password" id="password" required>
+        </div>
+
+        <div>
+        <button name=login>Login</button>
+        </div>
+       
+        </form> 
+</body>
+</html>
